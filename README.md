@@ -9,6 +9,13 @@ To get started
 2. Install meteorite
 3. run these commands in your terminal
 
-        meteor create myapp
+        # create meteor app
+        meteor create myapp 
+        cd myapp
+        
+        # get rid of standard meteor starting files
+        rm myapp.html myapp.css myapp.js
+        
+        # get zip
         curl -L  https://github.com/RolandStuder/jeizinen-template/archive/master.zip -o temp.zip
-        unzip temp.zip -d temp && mv temp/* . && rm -rf temp.zip temp
+        unzip temp.zip  && mv jeizinen-template-master/* . && rm -rf temp.zip jeizinen-template-master
