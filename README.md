@@ -9,6 +9,6 @@ To get started
 2. Install meteorite
 3. run these commands in your terminal
 
-    meteor create myapp
-    curl -L  https://github.com/RolandStuder/jeizinen-template/archive/master.zip -o temp.zip
-    unzip temp.zip -d temp && mv temp/* . && rm -rf temp.zip temp
+        meteor create myapp
+        curl -L  https://github.com/RolandStuder/jeizinen-template/archive/master.zip -o temp.zip
+        unzip temp.zip -d temp && mv temp/* . && rm -rf temp.zip temp
